@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cabin', sans-serif;   
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+    background-color: #07041F;
+}
+
+h1 {
+    display: table;
+    margin: auto;
+    margin-top: 10px;
+    color: #bf63e0;
+    border: #d41083 solid 3px;
+    background-color: #290A34;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.Matheus, .Hianna {
+    width: 400px;
+    height: auto;
+    padding: 24px;
+    margin: 25px;
+    border-radius: 24px;
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #290A34;
+    border: #4F0832 solid 8px;
+}
+
+.Matheus img, .Hianna img {
+    border: #bf63e0 solid 8px;
+    border-radius: 50%;
+}
+
+h2 {
+    color: #D08FB7;
+    background-color: #4F0832;
+    padding: 4px;
+    border-radius: 10px;
+    display: table;
+    margin-inline: auto;
+    margin-bottom: 10px;
+}
+
+.containerLetras {
+    color: #bf63e0;
+    margin: 8px;
+}
+
+div > div a{
+    display: block;
+    background-color: #4b0664;
+    text-decoration: none;
+    color: #e088bf;
+    line-height: 18px;
+    font-weight: 700;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+div > div a:hover {
+    color: #dd3c9f;
+    background-color: #632979;
+}
+
+a + a {
+    margin-top: 8px;
+}
+
+a {
+    margin-bottom: 8px;
+}
+
+
